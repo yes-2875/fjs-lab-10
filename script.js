@@ -76,10 +76,10 @@ let products = [product1, product2, product3, perishable1, product4, product5, p
 let store = new StoreInventory(products);
 
 // Print inventory value before adding discount
-console.log("Total inventory value before 15% discount: $" + store.products.getInventoryValue);
+console.log("Total inventory value before 15% discount: $" + store.getInventoryValue());
 
 ProductProperties.applyDiscount(store.products, 0.15);
-console.log("Total inventory value after 15% discount: $" + store.products.getInventoryValue);
+console.log("Total inventory value after 15% discount: $" + store.getInventoryValue());
 
 let result = store.findProductByName("Toy Car");
 console.log("Details of search result: " + result.toString());
