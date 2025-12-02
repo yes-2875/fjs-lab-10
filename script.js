@@ -14,3 +14,8 @@ class ProductProperties {
         return `Product ${this.name}; Price: $${this.price}, Quantity in Stock: ${this.quantity}`;
     }
 }
+
+// PART 2: Adding Inheritance
+class PerishableProductProperties extends ProductProperties {
+    
+}
