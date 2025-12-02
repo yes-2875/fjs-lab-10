@@ -75,3 +75,5 @@ const product5 = new ProductProperties("Nerf Blaster", 5.29, 22);
 let products = [product1, product2, product3, perishable1, product4, product5, perishable2];
 let store = new StoreInventory(products);
 
+// Print inventory value before adding discount
+console.log("Total inventory value before 15% discount: $" + store.products.getInventoryValue);
