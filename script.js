@@ -64,3 +64,10 @@ class StoreInventory {
         return result;
     }
 }
+
+// PART 5: Testing the System
+const product1 = new ProductProperties("Sour Straps", 3.25, 24);
+const product2 = new ProductProperties("Mechanical Pencil", 3.45, 35);
+const product3 = new ProductProperties("Toy Car", 4.25, 15);
+const product4 = new ProductProperties("Walkie-Talkie", 5.19, 14);
+const product5 = new ProductProperties("Nerf Blaster", 5.29, 22);
