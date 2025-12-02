@@ -48,4 +48,13 @@ class StoreInventory {
     addProduct(product) {
         this.products.push(product);
     }
+    
+    getInventoryValue() {
+        let totalCost = 0;
+        this.products.forEach(element => {
+            totalCost += element.getTotalValue();
+        });
+        
+        return totalCost;
+    }
 }
