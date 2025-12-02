@@ -77,3 +77,6 @@ let store = new StoreInventory(products);
 
 // Print inventory value before adding discount
 console.log("Total inventory value before 15% discount: $" + store.products.getInventoryValue);
+
+ProductProperties.applyDiscount(store.products, 0.15);
+console.log("Total inventory value after 15% discount: $" + store.products.getInventoryValue);
