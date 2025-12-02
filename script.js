@@ -26,3 +26,7 @@ class PerishableProductProperties extends ProductProperties {
         return `Product ${this.name}; Price: $${this.price}, Quantity in Stock: ${this.quantity}, Expiration Date: ${this.expirationDate}`;
     }
 }
+
+// Creating two instances of this subclass
+const perishable1 = new PerishableProductProperties("Milk", 24.50, 30, "2025-12-30");
+const perishable2 = new PerishableProductProperties("Bananas", 4.50, 40, "2025-12-10");
