@@ -57,4 +57,10 @@ class StoreInventory {
         
         return totalCost;
     }
+    
+    findProductByName(name) {
+        let result = this.products.find((element) => element.name == name);
+        if (result == undefined) { result = null; }
+        return result;
+    }
 }
