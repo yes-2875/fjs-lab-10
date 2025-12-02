@@ -71,3 +71,7 @@ const product2 = new ProductProperties("Mechanical Pencil", 3.45, 35);
 const product3 = new ProductProperties("Toy Car", 4.25, 15);
 const product4 = new ProductProperties("Walkie-Talkie", 5.19, 14);
 const product5 = new ProductProperties("Nerf Blaster", 5.29, 22);
+
+let products = [product1, product2, product3, perishable1, product4, product5, perishable2];
+let store = new StoreInventory(products);
+
