@@ -80,3 +80,6 @@ console.log("Total inventory value before 15% discount: $" + store.products.getI
 
 ProductProperties.applyDiscount(store.products, 0.15);
 console.log("Total inventory value after 15% discount: $" + store.products.getInventoryValue);
+
+let result = store.findProductByName("Toy Car");
+console.log("Details of search result: " + result.toString());
