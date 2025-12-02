@@ -13,6 +13,11 @@ class ProductProperties {
     toString() {
         return `Product ${this.name}; Price: $${this.price}, Quantity in Stock: ${this.quantity}`;
     }
+    
+    // PART 3: Static Methods and Properties
+    static applyDiscount(products, discount) {
+        
+    }
 }
 
 // PART 2: Adding Inheritance
