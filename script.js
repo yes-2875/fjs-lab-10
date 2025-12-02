@@ -39,3 +39,13 @@ const perishable1 = new PerishableProductProperties("Milk", 24.50, 30, "2025-12-
 const perishable2 = new PerishableProductProperties("Bananas", 4.50, 40, "2025-12-10");
 
 // PART 4: Store Management
+class StoreInventory {
+    
+    constructor(products) {
+        this.products = products;
+    }
+    
+    addProduct(product) {
+        this.products.push(product);
+    }
+}
